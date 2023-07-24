@@ -29,7 +29,7 @@ export default function DishRow({name, description, id, price, image}) {
                     </View>
                     <View className="flex-row pl-3 justify-between items-center">
                         <Text className="text-gray-700 text-lg font-bold">
-                            ${price}
+                        ₹{price}
                         </Text>
                         <View className="flex-row items-center">
                             <TouchableOpacity 
