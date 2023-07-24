@@ -18,7 +18,7 @@ export const getFeaturedResturants = ()=>{
 
 export const getCategories = ()=>{
     return sanityQuery(`
-        *[_type == 'category']
+        *[_type == 'category'] 
     `);
 }
 
